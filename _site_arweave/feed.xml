@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://sarcophagus.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sarcophagus.io/" rel="alternate" type="text/html" /><updated>2021-10-01T19:08:49+05:30</updated><id>https://sarcophagus.io/feed.xml</id><title type="html">Sarcophagus - Dead Man’s Switch</title><subtitle>A decentralized, crypto-powered dead man's switch built on ethereum and arweave.</subtitle><entry><title type="html">BTC Miami Resurrection Game</title><link href="https://sarcophagus.io/2021/05/29/BTC-Miami-Resurrection-Game.html" rel="alternate" type="text/html" title="BTC Miami Resurrection Game" /><published>2021-05-29T00:00:00+05:30</published><updated>2021-05-29T00:00:00+05:30</updated><id>https://sarcophagus.io/2021/05/29/BTC-Miami-Resurrection-Game</id><content type="html" xml:base="https://sarcophagus.io/2021/05/29/BTC-Miami-Resurrection-Game.html">&lt;p&gt;&lt;img class=&quot;post-hero-img img-fluid&quot; src=&quot;./assets/img/btc_miami.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As many in the crypto world descend on Miami for the annual lambo moon pilgrimage, the Sarcophagus builders would like to honor the return to Mecca with a simple resurrection game.&lt;/p&gt;
+
+&lt;p&gt;Sarcophagus was built with an option for public disclosure of secrets; so we’ve decided to use that option to give away 1k $SARCO tokens to the first person/bot/DAO to sweep the account when the sarcophagus is resurrected.&lt;/p&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;A seed phrase was generated via &lt;a href=&quot;https://iancoleman.io/bip39/&quot;&gt;https://iancoleman.io/bip39/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1k $SARCO was sent to the game wallet: &lt;a href=&quot;https://etherscan.io/address/0x95fd416374e31885115133Db3c17146Ec6BD67c7&quot;&gt;https://etherscan.io/address/0x95fd416374e31885115133Db3c17146Ec6BD67c7&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The game wallet seed phrase was placed into a .txt file and a sarcophagus was created containing this file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The resurrection time (when the recipient’s private key will be able to download the file) was set for 6/5/21 at 7pm EST.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The private key of the (zero value) recipient wallet is posted publicly: &lt;a href=&quot;https://app.sarcophagus.io/#/resurrection?recipientPrivateKey=0x1d42fdeb80ffdfa399ca99a7546b63656df601eb3ea5629fe55fe7d415766abc&quot;&gt;https://app.sarcophagus.io/#/resurrection?recipientPrivateKey=0x1d42fdeb80ffdfa399ca99a7546b63656df601eb3ea5629fe55fe7d415766abc&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The game is started and the first user to sweep the seed phrase that is inside of the sarcophagus after is has been resurrected keeps the holdings.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>sarco_builders</name></author><summary type="html"></summary></entry><entry><title type="html">We Built A Fire</title><link href="https://sarcophagus.io/2021/05/05/we-built-a-fire.html" rel="alternate" type="text/html" title="We Built A Fire" /><published>2021-05-05T00:00:00+05:30</published><updated>2021-05-05T00:00:00+05:30</updated><id>https://sarcophagus.io/2021/05/05/we-built-a-fire</id><content type="html" xml:base="https://sarcophagus.io/2021/05/05/we-built-a-fire.html">&lt;p&gt;&lt;img class=&quot;post-hero-img img-fluid&quot; src=&quot;./assets/img/fire.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assuming you want to build a long burning, hot fire; you start with small, dry, and quick burning kindling, add twigs, small branches, then logs. Using this principal as a guide; the Sarcophagus builders have employed several different on-chain mechanisms to help assure a rational and easily measurable network launch.&lt;/p&gt;
+
+&lt;h3 id=&quot;kindling&quot;&gt;Kindling:&lt;/h3&gt;
+&lt;p&gt;100,000,000 $SARCO minted&lt;/p&gt;
+
+&lt;p&gt;Stablecoin liquidity mining started with 1,000,000 $SARCO&lt;/p&gt;
+
+&lt;p&gt;20,000,0000 $SARCO sent to on-chain builders vesting contract&lt;/p&gt;
+
+&lt;h3 id=&quot;twigs&quot;&gt;Twigs:&lt;/h3&gt;
+&lt;p&gt;DAO Launched
+	- 79,000,000 $SARCO transferred to DAO.
+	- Treasury only controllable by on-chain vote.&lt;/p&gt;
+
+&lt;h3 id=&quot;branches&quot;&gt;Branches:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;UNI-LP Farming
+    &lt;ul&gt;
+      &lt;li&gt;Allocation: 2,500,000 $SARCO proportional linear emission over 1 year.&lt;/li&gt;
+      &lt;li&gt;Requires DAO vote to fund contract.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;logs&quot;&gt;Logs:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Embalmer Use Incentives
+    &lt;ul&gt;
+      &lt;li&gt;Allocation: 2,500,000 $SARCO&lt;/li&gt;
+      &lt;li&gt;Distribution specifics TBD&lt;/li&gt;
+      &lt;li&gt;dApp used based, goal of net zero cost of use for testing. Ex. Total user spend including ETH gas and $SARCO should equal rewards.&lt;/li&gt;
+      &lt;li&gt;Requires DAO vote to fund contract.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Archaeologist Bonding Incentives
+    &lt;ul&gt;
+      &lt;li&gt;17,000,000 $SARCO distributed based on bonded $SARCO in archaeologist servers. Linear emission over the course of one year.&lt;/li&gt;
+      &lt;li&gt;Requires DAO vote to fund contract.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The kindling ignites the twigs, the twigs get the branches burning, etc.&lt;/p&gt;</content><author><name>sarco_builders</name></author><summary type="html"></summary></entry><entry><title type="html">It’s Probably Nothing Update 0</title><link href="https://sarcophagus.io/2021/03/17/Its-Probably-Nothing-Update-0.html" rel="alternate" type="text/html" title="It’s Probably Nothing Update 0" /><published>2021-03-17T00:00:00+05:30</published><updated>2021-03-17T00:00:00+05:30</updated><id>https://sarcophagus.io/2021/03/17/Its-Probably-Nothing-Update-0</id><content type="html" xml:base="https://sarcophagus.io/2021/03/17/Its-Probably-Nothing-Update-0.html">&lt;p&gt;&lt;img class=&quot;post-hero-img img-fluid&quot; src=&quot;./assets/img/probably_nothing_0.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;---------------------------------------&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+&lt;h2 id=&quot;01-quick-update&quot;&gt;0.1 Quick Update&lt;/h2&gt;
+&lt;h6 id=&quot;----------------------------------------1&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+
+&lt;h3 id=&quot;whats-happened-so-far-on-test&quot;&gt;What’s happened so far on test&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Everything, the &lt;a href=&quot;https://app.dev.sarcophagus.io/#/tomb&quot;&gt;app&lt;/a&gt; is live on testnet, see request for testing help below.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;whats-happened-so-far-on-main&quot;&gt;What’s happened so far on main&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/token/0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a&quot;&gt;Fixed supply token minted&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/address/0x7a9a0d2ae824ba57a5fe7dabaf7e6846021d4e8e&quot;&gt;Liquidity mining deployed, funded, and running&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/address/0xe79a907147055fbc9dee9f337c5746271b045122&quot;&gt;Builders vesting distribution contract funded and running&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/address/0xBD53450702A341F356d609d76044DB8a06E200B3&quot;&gt;Aragon DAO voting proxy contract deployed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://client.aragon.org/#/sarcophagus/0x3299f6a52983ba00ffaa0d8c2d5075ca3f3b7991/&quot;&gt;DAO created and funded w/incentive allocations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://info.uniswap.org/token/0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a&quot;&gt;Uniswap ETH/SARCO pool small but chugging along&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;----------------------------------------2&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+&lt;h2 id=&quot;02-help-us-test-sarcophaugs-on-hybrid-testnet&quot;&gt;0.2 Help Us Test Sarcophaugs on Hybrid Testnet&lt;/h2&gt;
+&lt;h6 id=&quot;----------------------------------------3&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+
+&lt;p&gt;There is a version of the Sarcophagus dApp at: &lt;a href=&quot;https://app.dev.sarcophagus.io/&quot;&gt;https://app.dev.sarcophagus.io/&lt;/a&gt; it runs on the Rinkeby ETH testnet and the Arweave mainnet (shout out to AR for being so cheap we can test on main).&lt;/p&gt;
+
+&lt;p&gt;If you would like to help us test Sarcophagus please go to our &lt;a href=&quot;https://discord.gg/XPNKEZW&quot;&gt;Discord&lt;/a&gt; and request some testnet tokens. Someone will send you .01 ETH and 100 SARCO on the Rinkeby network. You can then connect your metammask to the app and try everything out!&lt;/p&gt;
+
+&lt;p&gt;The rinkeby token address for the mock $SARCO is: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x77ec161f6c2f2ce4554695a07e071d3f0ef3aef5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;More explainations will be coming soon about limitations, but if you would like to do a quick and dirty test, here are the steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request testnet tokens from our discord and we will send you .01 ETH and 100 SARCO.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set your metamask to rinkeby and connect to the dApp on the &lt;a href=&quot;https://app.dev.sarcophagus.io/#/create&quot;&gt;create sarcophagus&lt;/a&gt; page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get the extended public key for your recipient account by signing a message from it &lt;a href=&quot;https://app.dev.sarcophagus.io/#/publicKey&quot;&gt;here&lt;/a&gt;.
+If you don’t want to deal with that, here’s an ETH recipient keypair you can use: &lt;br /&gt;
+Extended Public Key:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x04451c509dee53b358c0261df187f150cdd354dff81ada711254d4f362c972866bf506b18d4a8817e1fae39c5c9dc0a4abeff17451e83dc5b66ab417d5015b80f4&lt;/code&gt;&lt;br /&gt;
+Private Key: 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0xff5793ccb2f2da317982a58b7b5d2a461ccc267f0a88fe07ac1efd1204fb04e4&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next upload your file, the smaller the better for this alpha testing, but feel free to try whatever. Here’s a &lt;a href=&quot;./assets/files/sarco_test_key.txt&quot;&gt;sample 155 byte .txt file&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set your resurrection time, please make sure this is at least a few hours away for the alpha.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Choose an Archaeologist to curse, you’re welcome to adjust the parameters, but the defaults are set to make sure everything runs smoothly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click “Finish” to create your sarcophagus.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will need to approve the ERC20 SARCO token to be spent by the contract the first time, and then you can execute the transfer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the sarcophagus is created you will have to sign it one more time before it is finalized.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can now monitor/rewrap your sarcophagi in the Tomb.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There is a good chance that you are going to encounter some errors. The best way to communicate those to the builders is to take a screenshot of the errors in the console + post in Discord. Even if no one responds WE STILL SEE IT AND LOVE YOU! In Chrome, right click the app page &amp;gt; Inspect &amp;gt; Console. If you don’t mind, please include what you are trying to embalm and what setup you are using.&lt;/p&gt;
+
+&lt;p&gt;Any and all feedback is appreciated, whether it’s on twitter, discord, telegram, etc. However submitting an issue on GitHub is by far the best way to help the builders fix any bugs or negative user experiences prior to mainnet launch.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h6 id=&quot;----------------------------------------4&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+&lt;h2 id=&quot;03-current--future-incentives&quot;&gt;0.3 Current + Future Incentives&lt;/h2&gt;
+&lt;h6 id=&quot;----------------------------------------5&quot;&gt;- - - - - - - - - - - - - - - - - - - -&lt;/h6&gt;
+
+&lt;h4 id=&quot;currently-running&quot;&gt;Currently Running:&lt;/h4&gt;
+
+&lt;h3 id=&quot;liquidity-mining&quot;&gt;Liquidity Mining&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://mining.sarcophagus.io&quot;&gt;mining.sarcophagus.io&lt;/a&gt; stablecoin depositors have $SARCO distributed in proportion to their stake in the pool. 1m tokens are distributed equally over 1 year, started at 00:00 UTC Jan 13th, 2021.&lt;/p&gt;
+
+&lt;h5 id=&quot;planned&quot;&gt;Planned:&lt;/h5&gt;
+
+&lt;h3 id=&quot;embalmer-matching-incentive&quot;&gt;Embalmer Matching Incentive&lt;/h3&gt;
+
+&lt;p&gt;2m $SARCO allocated for user grants/incentives will be distributed to users who create and manage sarcophagi on the dApp in the first 30 days after mainnet launch. The distribution will be equal to the fees paid to the archaeologist by the embalmer, in the creation and management of sarcophagi.&lt;/p&gt;
+
+&lt;h3 id=&quot;archaeologist-bonding-incentive&quot;&gt;Archaeologist Bonding Incentive&lt;/h3&gt;
+
+&lt;p&gt;15m + 2m $SARCO allocated for archaeologist bonding + grants (a decision was made to combine grants and incentives due to legal / accounting troubles created by grants without consideration).&lt;/p&gt;
+
+&lt;p&gt;The 17m $SARCO will be distributed per archaeologist in proportion to the amount of $SARCO bonded, over the course of one year, calculated per second. In short: the more an Archaeologist has bonded, for longer, the more they will earn.&lt;/p&gt;
+
+&lt;h6 id=&quot;planning&quot;&gt;Planning:&lt;/h6&gt;
+
+&lt;h3 id=&quot;uniwswap-ethsarco-pool-incentive&quot;&gt;Uniwswap ETH/SARCO Pool Incentive&lt;/h3&gt;
+
+&lt;p&gt;A plan to commit 2.5m $SARCO tokens from the DAO’s treasury to incentivize liquidity on Uniswap. Likely in the form of an LP-Token lock linear release mechanism. This would work just like the current Liquidity Mining contract except instead of accepting USDC, DAI, and USDT, it only accepts ETH-SARCO UNI-V2 LP tokens. It would run for one year and would distribute the tokens linearly.&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>sarco_builders</name></author><summary type="html"></summary></entry><entry><title type="html">We Built a Wind Sock</title><link href="https://sarcophagus.io/2021/02/18/We-Built-A-Wind-Sock.html" rel="alternate" type="text/html" title="We Built a Wind Sock" /><published>2021-02-18T00:00:00+05:30</published><updated>2021-02-18T00:00:00+05:30</updated><id>https://sarcophagus.io/2021/02/18/We-Built-A-Wind-Sock</id><content type="html" xml:base="https://sarcophagus.io/2021/02/18/We-Built-A-Wind-Sock.html">&lt;img class=&quot;post-hero-img img-fluid&quot; src=&quot;./assets/img/wind-sock-hero.jpeg&quot;/&gt;
+&lt;p class=&quot;post-hero-caption&quot;&gt;Original art by https://twitter.com/livlarocca&lt;/p&gt;
+
+
+
+&lt;p&gt;A windsock is an instrument that is used at airports as a dead-simple visual guide to wind speed and direction. It is able to communicate an incredible amount of information in glance. In under a second, a pilot can internalize the wind speed based on where the bend in the sock is:&lt;/p&gt;
+
+&lt;p&gt;1st Hoop: 0–3kts (hanging down)&lt;br/&gt;
+2nd Hoop: 6kts&lt;br/&gt;
+3rd Hoop: 9kts&lt;br/&gt;
+4th Hoop: 12kts&lt;br/&gt;
+5th Hoop: 15kts+ (blowing 90° from ground)&lt;/p&gt;
+
+&lt;p&gt;Then based on where the end of the windsock is, the pilot can also see the direction in which the wind is blowing at the runway altitude. All windsocks have these same color patters and wind attributes.&lt;/p&gt;
+
+&lt;p&gt;If multiple observations are done the pilot can see the changes in speed and direction of the wind, essential data when you’re landing a small plane. In the above illustration we can see that the wind is blowing from right to left at 3kts or less.&lt;/p&gt;
+
+&lt;h2&gt;What Does This have to do with Sarcophagus?&lt;/h2&gt;
+
+&lt;p&gt;The builders have created a mechanism for token distribution that is based purely on opportunity cost. Its purpose is to distribute tokens in a fair way, but also to serve as a dead-simple indicator for builders, Sarcophagus DAO members, embalmers, archaeologists and other interested parties. This indicator will be extremely valuable for network participants until equilibriums are reached.&lt;/p&gt;
+
+&lt;p&gt;It works by distributing 1% of the (fixed) 100,000,000 $SARCO token supply to users who choose to lock their stablecoins into the contract. Any locked coins are distributed $SARCO tokens in direct proportion to their weight in the pool recalculated per second. The contract only supports $USDC, $USDT, and $DAI. The contract runs for exactly one year.&lt;/p&gt;
+
+&lt;p&gt;All tokens are liquid and can be unlocked at any time. When the stablecoins are locked into the contract, they are not being used for anything. Just sitting there; and that’s the point.&lt;/p&gt;
+
+&lt;img class=&quot;post-img img-fluid&quot; src=&quot;./assets/img/mining.gif&quot;/&gt;
+
+&lt;p class=&quot;post-caption&quot;&gt;https://mining.sarcophagus.io&lt;/p&gt;
+
+&lt;p&gt;In the future the builders expect the liquidity mining to allow for more clarity in making decisions. For example, if the DAO was to vote to buy or sell $SARCO tokens in the future, the history of the liquidity mining program transactions overlaid against the average DeFi lending opportunity cost for the period can inform a more accurate and less hand-wavy proposal for vote. Everyone wins here as it is hard to manipulate the past.&lt;/p&gt;
+
+&lt;p&gt;The total opportunity cost for the liquidity mining contract can be found by taking the daily DeFi lending rates for each token ($USDC, $USDT and $DAI) from the beginning of the contract (Jan 13th, 00:00 UTC), multiplying them by the value of each token in the contract per day. You can then find the implied token value by dividing the opportunity cost by the number of emitted $SARCO tokens at the time of calculation.&lt;/p&gt;
+
+&lt;img class=&quot;post-img img-fluid&quot; src=&quot;./assets/img/lend-rates.png&quot;/&gt;
+
+&lt;p class=&quot;post-caption&quot;&gt;https://defipulse.com/defi-lending&lt;/p&gt;
+
+&lt;p&gt;Since lending rates (opportunity cost) are constantly variable, we must decide on a tick increment, one day is the easiest, hourly is even better if you have the data. Strictly speaking lending rates should be calculated per second and volume weighted averaged between all decentralized lending options, but this is a windsock not a dissertation — we’ve just been using data from Compound.&lt;/p&gt;
+
+&lt;p&gt;In calculating implied value, there are 7 variables at play:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USDC Locked (LUSDC)&lt;/li&gt;
+&lt;li&gt;USDT Locked (LUSDT)&lt;/li&gt;
+&lt;li&gt;DAI Locked (LDAI)&lt;/li&gt;
+&lt;li&gt;USDC avg daily lending return (USDCdr)&lt;/li&gt;
+&lt;li&gt;USDT avg daily lending return (USDTdr)&lt;/li&gt;
+&lt;li&gt;DAI avg daily lending return (DAIdr)&lt;/li&gt;
+&lt;li&gt;Measurement Period in Days (t=0 = liquidity mining launch at 00:00 UTC on Jan 13th, 2021)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img class=&quot;post-img img-fluid&quot; src=&quot;./assets/img/mining-equation.png&quot;/&gt;
+
+&lt;p&gt;The change in DeFi lending rates has an effect on the equation equal to locked value, and as you know — yields for different stablecoins can be very different, and can move quickly.&lt;/p&gt;</content><author><name>sarco_builders</name></author><summary type="html">Original art by https://twitter.com/livlarocca</summary></entry><entry><title type="html">What Is A Dead Man’s Switch?</title><link href="https://sarcophagus.io/2021/02/16/What-Is-A-Dead-Mans-Switch.html" rel="alternate" type="text/html" title="What Is A Dead Man’s Switch?" /><published>2021-02-16T00:00:00+05:30</published><updated>2021-02-16T00:00:00+05:30</updated><id>https://sarcophagus.io/2021/02/16/What-Is-A-Dead-Mans-Switch</id><content type="html" xml:base="https://sarcophagus.io/2021/02/16/What-Is-A-Dead-Mans-Switch.html">&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/img/what_is_it_post_hero.png&quot;/&gt;
+
+&lt;p&gt;Known by many terms (vigilance control, kill cord, operator presence control, etc), a Dead Man’s Switch (DMS) is a switch that is triggered when the operator FAILS to perform an action. Rather than a traditional switch that is triggered when the operator performs an action, (like flipping on a light).&lt;/p&gt;
+
+&lt;p&gt;Most dead man’s switches (DMS) in meatspace (physical reality) are triggered instantaneously. For example: If the operator of a NYC Subway train lets go of the small metal handle they normally hold with their right hand, the entire subway train comes to a stop.&lt;/p&gt;
+
+&lt;p&gt;Some DMS have a delay built into them before they take action; an example of this would be a vigilance control system in an airliner autopilot — you wouldn’t want your engines shutting down mid-air while you were in the bathroom would you?&lt;/p&gt;
+
+&lt;p&gt;Many meatspace DMS work by requiring the human controller to be touching multiple points on a machine to operate it. The operating thesis is that if both of your hands are on the switches, neither of them can be inside the dangerous machinery.&lt;/p&gt;
+
+&lt;p&gt;There is a large and growing number of use cases in which a DMS is helpful, but it is important to understand that they are all meant to take over in the case of failure of a human operator. There are an unlimited number of inputs, delays, attestations, and trigger consequences.&lt;/p&gt;
+
+&lt;p&gt;Wikipedia says a DMS is “a switch that is designed to be activated or deactivated if the human operator becomes incapacitated, such as through death, loss of consciousness, or being bodily removed from control.”&lt;/p&gt;
+
+&lt;h2&gt;One of the Most Visceral Examples of a Dead Man’s Switch in Use Today Is a Suicide Vest&lt;/h2&gt;
+
+&lt;img class=&quot;post-img img-fluid&quot; src=&quot;./assets/img/vest.png&quot;/&gt;
+
+&lt;p&gt;The builders of these weapons know that the use of a simple handheld switch can dramatically amplify the power of a suicide bomber. Without this extremely basic two-wire switch, a single gunshot could nullify the bomber’s mission and the bomb might never go off.&lt;/p&gt;
+
+&lt;p&gt;With the switch, the bomb will explode if the bomber is shot OR when they choose to detonate. Simply wiring a $0.50 momentary switch backwards is a dramatic force multiplier in this situation.&lt;/p&gt;
+
+
+&lt;h2&gt;Building a Digital Dead Man’s Switch&lt;/h2&gt;
+
+
+&lt;p&gt;While force multiplication may not be the best thing in the context of a suicide vest, it can be a force for good as well. With the ability to trigger based on inaction, we can change the way that we look at many digital systems.&lt;/p&gt;
+
+&lt;p&gt;Some basic examples of use cases for a digital DMS are:
+Will and Trust: The creator of the Will is able to send all relevant data to the heirs, but the heirs aren’t able to read the Will until the creator has passed. It’s fun to conceptualize it like giving heirs a copy of a paper Will with invisible ink that only becomes visible after the creator has died.&lt;/p&gt;
+
+&lt;p&gt;Political Activism: If an activist is in possession of information that could result in their assassination if the information were leaked, the activist can use a DMS to release the information upon their detainment, imprisonment or assassination. The cryptographically-assured release of the files upon triggering of the DMS can help protect the activist.&lt;/p&gt;
+
+&lt;p&gt;Emergency Communication: Experienced outdoors people know this case well; leaving your travel plans and timeline with a trusted friend has been the defacto DMS for as long as people have ventured away from the cave. Now, we have many tools to help, like satellite communicators and GPS trackers. Imagine being able to have your exact GPS location and emergency procedure released to relevant parties only after you failed to check in? This preserves privacy and sense of adventure without compromising on modern safety.&lt;/p&gt;
+
+&lt;p&gt;Sex Work: Sex workers routinely employ a similar method as the outdoors people in the example above by telling a trusted friend where they are going, who they are going with, and to call the police if they don’t hear from them by a certain time. This system has several flaws, first that it relies on a single outside party, generally one that is not compensated. Another is that privacy is not preserved; the regular client is still having their information handled in an unencrypted form, the risk of exposure is high even for the best clients. When sensitive information is shared through platforms like iMessage and Signal, it is just a matter of time before someone sends an attachment to the wrong number and compromising info is exposed. With a digital DMS, the sex worker is able to handle all client info securely, and incentivize third parties to act on their behalf if their switch is triggered.&lt;/p&gt;</content><author><name>sarco_builders</name></author><summary type="html"></summary></entry></feed>
