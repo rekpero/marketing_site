@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Is A Dead Man’s Switch?</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/main.css">
+  <script src="./assets/javascript/bootstrap/jquery.min.js"></script>
+  <script src="./assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+  <meta property="og:title" content="Sarcophagus Dead Man's Switch dApp">
+  <meta property="og:site_name" content="Sarcophagus">
+  <meta property="og:url" content="https://sarcophagus.io">
+  <meta property="og:description" content="Sarcophagus is an autonomous, incentivized dead man's switch dApp built on Ethereum and Arweave.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sarcophagus.io/assets/img/social_og.png">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180877699-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180877699-1');
+  </script>
+
+
+
+
+<!--
+   ▄▄▄▄▄   ██   █▄▄▄▄ ▄█▄    ████▄ █ ▄▄   ▄  █ ██     ▄▀    ▄      ▄▄▄▄▄
+  █     ▀▄ █ █  █  ▄▀ █▀ ▀▄  █   █ █   █ █   █ █ █  ▄▀       █    █     ▀▄
+▄  ▀▀▀▀▄   █▄▄█ █▀▀▌  █   ▀  █   █ █▀▀▀  ██▀▀█ █▄▄█ █ ▀▄  █   █ ▄  ▀▀▀▀▄
+ ▀▄▄▄▄▀    █  █ █  █  █▄  ▄▀ ▀████ █     █   █ █  █ █   █ █   █  ▀▄▄▄▄▀
+              █   █   ▀███▀         █       █     █  ███  █▄ ▄█
+             █   ▀                   ▀     ▀     █         ▀▀▀
+            ▀                                   ▀
+
+A decentralized dead man's switch
+
+telegram: https://t.me/sarcophagusio
+
+discord: https://discord.gg/XPNKEZW
+
+contact: nospam@sarcophagus.io
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: OpenPGP.js v4.10.7
+Comment: https://openpgpjs.org
+
+xjMEX0RtehYJKwYBBAHaRw8BAQdAHT2CAePaeVHyMtIMbGsN8aaATyz5DkQ0
+TNVpV3SRSGjNLW5vc3BhbUBzYXJjb3BoYWd1cy5pbyA8bm9zcGFtQHNhcmNv
+cGhhZ3VzLmlvPsKPBBAWCgAgBQJfRG16BgsJBwgDAgQVCAoCBBYCAQACGQEC
+GwMCHgEAIQkQHLZa1vaeT7gWIQRw0cZDu2CCF27JK3UctlrW9p5PuGyqAQDp
+9bpd1gd6/BU3s1vgAf9RTXp+0zk4gRLeIE3jQxAHRAEAxJ5T2DbSNuwuyKV3
+NDxhfbjhtwRCpPYfoWrOXMrntwHOOARfRG16EgorBgEEAZdVAQUBAQdAVawc
+58xyjpS+j/7zunaSbGFxUj2y51VbzbcONcy7wF0DAQgHwngEGBYIAAkFAl9E
+bXoCGwwAIQkQHLZa1vaeT7gWIQRw0cZDu2CCF27JK3UctlrW9p5PuBq3AQDq
+ds+8Kf2wxfrqZWw0VpGrxeuv5s7+qS0PhedIVP7z/wD9EFqanhQK7y7E9/pR
+1Mw4/KIWYeSXCayoOwSIpPn5ZgU=
+=J1Ok
+-----END PGP PUBLIC KEY BLOCK-----
+
+-->
+
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" rel="author" href="/"><img src="./assets/img/header_logo.png"/> </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Learn
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./how_it_works.html">How It Works</a>
+              <a class="dropdown-item" href="./sarco_token.html">$SARCO Token</a>
+              <a class="dropdown-item" href="./incentives.html">Incentives</a>
+              <a class="dropdown-item" href="./about.html">About</a>
+              <a class="dropdown-item" href="./blog.html">Blog</a>
+              <a class="dropdown-item" href="https://sarcophagus.gitbook.io/sarcophagus-documentation/" target="_blank">FAQ and Docs</a>
+              <a class="dropdown-item" href="https://sarcophagus.community/" target="_blank">Community Site</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Use
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://app.dev.sarcophagus.io/" target="_blank">Rinkeby Testnet App</a>
+              <a class="dropdown-item" href="https://app.sarcophagus.io/" target="_blank">Mainnet App (WARNING: UNAUDITED)</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Earn
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://mining.sarcophagus.io/" target="_blank">Stablecoin Liquidity Mining</a>
+              <a class="dropdown-item" href="https://farming.sarcophagus.io/" target="_blank">UNI-V2 LP Token Farming</a>
+              <a class="dropdown-item" href="./incentives.html">Incentives</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Govern
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://govern.sarcophagus.io/" target="_blank">Governance App</a>
+              <a class="dropdown-item" href="https://client.aragon.org/#/sarcophagus/" target="_blank">Aragon DAO</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Play
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://rarible.com/sarcophagus-merch" target="_blank">421 NFT Merch Drop</a>
+            </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item nav-icons">
+          <a class="nav-link" href="https://twitter.com/sarcophagusio" target="_blank"><img src="/assets/img/twitter-icon-solid.svg" class="nav-icon-20"/></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-icon" href="https://discord.gg/XPNKEZW" target="_blank"><img src="/assets/img/discord-icon-solid.svg" class="nav-icon-20"/></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-icon" href="https://t.me/sarcophagusio" target="_blank"><img src="/assets/img/telegram-icon-solid.svg" class="nav-icon-20"/></a>
+        </li>
+
+        <li class="nav-item nav-icon">
+          <a class="nav-link" href="https://github.com/sarcophagus-org" target="_blank"><img src="/assets/img/github-icon-solid.svg" class="nav-icon-20"/></a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<div id="blog-post">
+  <article>
+
+    <header>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+
+            <div class="col-md-8">
+              <p><a href="./blog">&larr; Back to posts</a></p>
+              <h1>What Is A Dead Man’s Switch?</h1>
+              <p class="">
+                <time datetime="2021-02-16T00:00:00+05:30">Feb 16, 2021
+                </time>by sarco_builders</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8">
+            <img class="img-fluid" src="./assets/img/what_is_it_post_hero.png"/>
+
+<p>Known by many terms (vigilance control, kill cord, operator presence control, etc), a Dead Man’s Switch (DMS) is a switch that is triggered when the operator FAILS to perform an action. Rather than a traditional switch that is triggered when the operator performs an action, (like flipping on a light).</p>
+
+<p>Most dead man’s switches (DMS) in meatspace (physical reality) are triggered instantaneously. For example: If the operator of a NYC Subway train lets go of the small metal handle they normally hold with their right hand, the entire subway train comes to a stop.</p>
+
+<p>Some DMS have a delay built into them before they take action; an example of this would be a vigilance control system in an airliner autopilot — you wouldn’t want your engines shutting down mid-air while you were in the bathroom would you?</p>
+
+<p>Many meatspace DMS work by requiring the human controller to be touching multiple points on a machine to operate it. The operating thesis is that if both of your hands are on the switches, neither of them can be inside the dangerous machinery.</p>
+
+<p>There is a large and growing number of use cases in which a DMS is helpful, but it is important to understand that they are all meant to take over in the case of failure of a human operator. There are an unlimited number of inputs, delays, attestations, and trigger consequences.</p>
+
+<p>Wikipedia says a DMS is “a switch that is designed to be activated or deactivated if the human operator becomes incapacitated, such as through death, loss of consciousness, or being bodily removed from control.”</p>
+
+<h2>One of the Most Visceral Examples of a Dead Man’s Switch in Use Today Is a Suicide Vest</h2>
+
+<img class="post-img img-fluid" src="./assets/img/vest.png"/>
+
+<p>The builders of these weapons know that the use of a simple handheld switch can dramatically amplify the power of a suicide bomber. Without this extremely basic two-wire switch, a single gunshot could nullify the bomber’s mission and the bomb might never go off.</p>
+
+<p>With the switch, the bomb will explode if the bomber is shot OR when they choose to detonate. Simply wiring a $0.50 momentary switch backwards is a dramatic force multiplier in this situation.</p>
+
+
+<h2>Building a Digital Dead Man’s Switch</h2>
+
+
+<p>While force multiplication may not be the best thing in the context of a suicide vest, it can be a force for good as well. With the ability to trigger based on inaction, we can change the way that we look at many digital systems.</p>
+
+<p>Some basic examples of use cases for a digital DMS are:
+Will and Trust: The creator of the Will is able to send all relevant data to the heirs, but the heirs aren’t able to read the Will until the creator has passed. It’s fun to conceptualize it like giving heirs a copy of a paper Will with invisible ink that only becomes visible after the creator has died.</p>
+
+<p>Political Activism: If an activist is in possession of information that could result in their assassination if the information were leaked, the activist can use a DMS to release the information upon their detainment, imprisonment or assassination. The cryptographically-assured release of the files upon triggering of the DMS can help protect the activist.</p>
+
+<p>Emergency Communication: Experienced outdoors people know this case well; leaving your travel plans and timeline with a trusted friend has been the defacto DMS for as long as people have ventured away from the cave. Now, we have many tools to help, like satellite communicators and GPS trackers. Imagine being able to have your exact GPS location and emergency procedure released to relevant parties only after you failed to check in? This preserves privacy and sense of adventure without compromising on modern safety.</p>
+
+<p>Sex Work: Sex workers routinely employ a similar method as the outdoors people in the example above by telling a trusted friend where they are going, who they are going with, and to call the police if they don’t hear from them by a certain time. This system has several flaws, first that it relies on a single outside party, generally one that is not compensated. Another is that privacy is not preserved; the regular client is still having their information handled in an unencrypted form, the risk of exposure is high even for the best clients. When sensitive information is shared through platforms like iMessage and Signal, it is just a matter of time before someone sends an attachment to the wrong number and compromising info is exposed. With a digital DMS, the sex worker is able to handle all client info securely, and incentivize third parties to act on their behalf if their switch is triggered.</p>
+
+
+
+
+          </div>
+        </div>
+        </div>
+    </section>
+
+
+
+  </article>
+</div><div class="container sarco-footer">
+  <div class="row">
+    <div class="col-md-2 d-none d-sm-block">
+      <img src="./assets/img/tablet_footer.gif" class="img-fluid"/>
+    </div>
+
+    <div class="col-md-4 pt-5">
+      <p>Sarcophagus is a 100% open-source project using the <a href="https://en.wikipedia.org/wiki/Unlicense" target="_blank">Unlicense</a>. It has been built by a global team of software developers, crypto enthusiasts and security experts. It has not yet been audited; use at your own risk.</p>
+    </div>
+
+    <div class="col-hidden col-md-1 pt-5">
+    </div>
+
+    <div class="col pt-5">
+      <ul class="pl-0">
+        <li><a href="https://discord.gg/XPNKEZW" target="_blank">Discord</a></li>
+        <li><a href="https://t.me/sarcophagusio" target="_blank">Telegram</a></li>
+        <li><a href="https://twitter.com/sarcophagusio" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/sarcophagus-org" target="_blank">GitHub</a></li>
+        <li><a href="http://eepurl.com/hbvV55" target="_blank">Email Updates</a></li>
+        <li><a href="https://rarible.com/sarcophagus-merch" target="_blank">421 NFT Merch Drop</a></li>
+      </ul>
+    </div>
+
+    <div class="col pt-5">
+      <ul class="pl-0">
+        <li><a href="/">Home</a></li>
+        <li><a href="./how_it_works.html">How It Works</a></li>
+        <li><a href="./sarco_token.html">SARCO Token</a></li>
+        <li><a href="./incentives.html">Incentives</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="https://mining.sarcophagus.io">Liquidity Mining</a></li>
+        <li><a href="https://farming.sarcophagus.io/">UNI-V2 LP Token Farming</a></li>
+        <li><a href="https://app.dev.sarcophagus.io/">Rinkeby Testnet App</a></li>
+        <li><a href="https://app.sarcophagus.io">Mainnet App (WARNING: UNAUDITED)</a></li>
+        <li><a href="https://govern.sarcophagus.io">Governance App</a></li>
+        <li><a href="https://client.aragon.org/#/sarcophagus.aragonid.eth" target="_blank">Aragon DAO</a></li>
+        <li><a href="https://sarcophagus.gitbook.io/sarcophagus-documentation/" target="_blank">Documentation</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
